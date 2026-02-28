@@ -176,13 +176,13 @@
     </div>
 
     <div class="overlay" id="image-overlay" onclick="closeOverlay()">
-        <img src="Note (1).jpg" alt="Secret Note" onclick="event.stopPropagation()">
+        <img src="MiceNote1.jpg" alt="Secret Note" onclick="event.stopPropagation()">
     </div>
 
     <script>
     function checkSecret() {
         const input = document.getElementById('secret-input').value.toLowerCase().trim();
-        const correctPassword = 'squilyd';
+        const correctPassword = 'shrewo';
         
         if (input === correctPassword) {
             const overlay = document.getElementById('image-overlay');
